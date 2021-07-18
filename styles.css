@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    background-color: violet;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+p {
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: thistle;
+}
+
+textarea {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: thistle;
+}
+
+button {
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #000;
+    background-color: brown;
+    border: 0;
+    font-weight: bolder;
+}
+
+button:hover {
+    transform: scale(1.01, 1.01);
+    background-color: yellow;
+}
